@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&family=Goudy+Bookletter+1911&family=Mallanna&family=Monoton&family=Nixie+One&family=Pacifico&family=Pangolin&family=Patrick+Hand&family=Rye&family=Satisfy&family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Montserrat:wght@100&display=swap');
+
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/overlay.css");
+@import url("components/footer.css");
+
+
+body {
+  margin: 0;
+}
+
+p {
+  text-decoration: none;
+}
+
+iframe {
+  padding: 20px;
+  border-radius: 28px;
+}
+
+#card {
+  padding: 20px;
+  border-radius: 28px;
+}
+
+h1 {
+  font-family: 'Cabin Sketch', cursive;
+  color: antiquewhite;
+  font-size: 40px;
+  padding: 16px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Cabin Sketch', cursive;
+  color: antiquewhite;
+  font-size: 40px;
+  padding: 16px;
+  text-align: center;
+  margin: 0 0;
+}
+
+ul {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 24px;
+  font-size: 40px;
+  color: aquamarine;
+  text-decoration: none;
+}
+
+i:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+i:visited {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited { text-decoration: none; color:aquamarine; }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: antiquewhite;
+  font-size: 20px;
+  padding: 16px;
+  text-align: center;
+  margin: 0 0;
+}

@@ -1,0 +1,38 @@
+.container {
+  width: auto;
+  margin: 0 auto;
+  background-color: #191F25;
+  display: flex;
+}
+
+.container a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.model {
+  width: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .model {
+    width: 800px;
+  }
+}
+
+@media (max-width: 700px) {
+  .model {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .model {
+    width: 400px;
+  }
+}

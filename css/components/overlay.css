@@ -1,0 +1,27 @@
+.overlay {
+  position: relative;
+}
+
+.overlay .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #FFF;
+}
+
+.overlay:hover .after {
+  display: inline;
+  background: rgba(0, 0, 0, .6);
+  transition: 0.5s;
+}
+
+.overlay a {
+  text-decoration: none;
+}
+
+.overlay a:hover {
+  color: hotpink;
+}
